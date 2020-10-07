@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "gc_knex_test-executor",
+    "name": "gc_knex_test",
+    "region": "us-east-2"
+  },
+  "api": {
+    "id": "h6az25imh6"
+  }
+}
