@@ -1,15 +1,17 @@
 'use strict'
 
 // ref: https://devhints.io/knex
-// TODO: implement more dynamic env var settings loader
+
+require('dotenv').config();
+
 module.exports = {
   development: {
     client: 'pg',
     connection: {
-      database: 'db66a7753f1504',
-      user: 'sperant',
-      password: 'J92fRrHbtm2R+1f+czdhnQ==',
-      host: 'speranttest.cavhcpvaoevd.us-east-1.rds.amazonaws.com'
+      database: process.env.DB_DATABASE,
+      user: process.env.DB_USER,
+      password: process.env.DB_PASSWORD,
+      host: process.env.DB_HOST
     },
     pool: {
       min: 2,
