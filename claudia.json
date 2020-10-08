@@ -5,6 +5,7 @@
     "region": "us-east-2"
   },
   "api": {
-    "id": "h6az25imh6"
+    "id": "h6az25imh6",
+    "url": "https://h6az25imh6.execute-api.us-east-2.amazonaws.com/latest/"
   }
 }
